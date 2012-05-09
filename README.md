@@ -1,34 +1,34 @@
 wikiMigrate
-===========
+====================
 
 Migrate from MediaWiki to Wikidot
 
 This is a little script that will help move your files from a MediaWiki site (MW) to a Wikidot site (WD).
 
 What it does:
---------------
+---------------------
 * Downloads your MW files.
 * Converts *basic* MW markup to WD syntax.
 * Lets you preview the WD versions.
 * Uploads the final WD versions to the wikidot site.
 
 Configuration:
---------------
+---------------------
 Comes with a sample_config.rb file.  You'll need to rename it to config.rb and
 edit the values with your wikidot and mediawiki info.
 
 Usage:
---------------
-   ruby wikiMigrate.rb <download|convert|preview|upload>
-     Run each phase as many times as you want, but do them in order
+---------------------
+    ruby wikiMigrate.rb <download|convert|preview|upload>
+    - Run each phase as many times as you want, but do them in order
      
 Disclaimer:
---------------
+---------------------
 This script is provided as-is with no warranty.  It is not a silver bullet for
 migration, and has several limitations described in more detail below.
 
 Details:
---------------
+---------------------
 The 'download' phase will grab everything from:
 - The root namespace (what you see when you go to the 'All Pages' special page)
 - The uploaded files
@@ -46,7 +46,7 @@ before finally committing.
 The 'upload' phase will upload all page and files to the wikidot site.
 
 Credits:
---------------
+---------------------
 Thanks to:
 - Jani Patokallio for the Mediawiki Gateway gem (https://github.com/jpatokal/mediawiki-gateway)
 - Michal Frackowiak for the Wikidot API gem (https://github.com/michalf/wikidot-api)
