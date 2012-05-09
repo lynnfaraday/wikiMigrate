@@ -45,6 +45,8 @@ before finally committing.
 
 The 'upload' phase will upload all page and files to the wikidot site.
 
+To get a Wikidot API key, see:  http://developer.wikidot.com/
+
 Credits:
 ---------------------
 Thanks to:
