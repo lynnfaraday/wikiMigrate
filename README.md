@@ -33,6 +33,7 @@ The 'download' phase will grab everything from:
 - The root namespace (what you see when you go to the 'All Pages' special page)
 - The uploaded files
 - The template namespace
+
 It does NOT do anything with Help, Talk, or Nav pages.
 
 The 'convert' phase will convert *basic* wiki syntax to wikidot format:  Bold, italics,
